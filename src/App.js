@@ -1,26 +1,33 @@
-import React from "react";
-import Navbar from "./Navbar";
-import Home from "./Home";
-import ChatBox from "./ChatBox";
-import ShowImage from "./Image";
+import Fridge from './In_fridge';
+import Navbar from './navbar';
+import Home from './home';
+import Time from './time';
+import Calories from './calories';
+import Restrictions from './restrictions';
+// import Homepage from './Homepage';
+import './Homepage.css'
 
 function App() {
+  const link = "https://www.youtube.com/shorts/RupMy5y46TM";
   return (
     <div className="App">
+      {/* <Homepage /> */}
       <Navbar />
-      {/* <div className="content">
-        <Home />
-      </div> */}
-      <div className="chat">
-        <ChatBox />
-      </div>
-      <div className="image">
-        <ShowImage />
-      </div>
+      <Fridge />
+      <Time/>
+      <Calories/>
+      <Restrictions/>
+
+
+      <div className="content"></div>
+      {/* <Home /> */}
+      
+      {/* <a href={link}> Go to Google</a> */}
     </div>
   );
 }
 
 export default App;
 
-// //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
+
+

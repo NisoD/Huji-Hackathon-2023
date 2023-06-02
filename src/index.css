@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 /* base styles */
 * {
@@ -13,9 +13,21 @@
   max-width: 600px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  
+
 }
 .navbar h1 {
   color: #f1356d;
+  font-family: Newsreader;
+  position: absolute;
+  left: 44.720000000000006px;
+	display: flex;
+	align-items: center;
+	color: rgba(0,0,0,1.00);
+	font-size: 40.28px;
+
+	font-style: italic;
+
 }
 .navbar .links {
   margin-left: auto;
@@ -34,17 +46,93 @@
   padding: 20px;
 }
 
-/* blog previews / list */
-.blog-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
+.fridge {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  left: 500px;
+
 }
-.blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+
+.fridge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+.navbar p {
+  display: inline;
+  align-items: right;
+  border-bottom: 1px solid #f2f2f2;
+  border-top: 1px solid #f2f2f2;
 }
-.blog-preview h2 {
-  font-size: 20px;
-  color: #f1356d;
+.suggestion-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.suggestion-item {
+  background-color: #f2f2f2;
+  padding: 8px;
+  margin-bottom: 4px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.suggestion-item:hover {
+  background-color: #e0e0e0;
+}
+
+.selected-word {
+  display: inline-block;
+  background-color:#f1356d;
+  color: white;
+  padding: 8px;
+  margin-right: 8px;
+  margin-bottom: 4px;
+  border-radius: 4px;
+}
+
+.selected-word span {
+  margin-right: 4px;
+}
+
+.selected-word button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.selected-word button:hover {
+  text-decoration: underline;
+}
+
+.text-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   margin-bottom: 8px;
 }
+
+.add-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+
+
