@@ -2,6 +2,7 @@ HujiSlayers: Recipe Generator Website
 Overview
 
 This project, developed during the HUJI Hackathon, leverages generative AI to create a local website for generating recipes based on user-provided ingredients.
+
 Demo
 
 Watch the project demo on [YouTube](https://youtu.be/fEry6b7GXSw?si=3TkQo9a0GzKKnyaD).
