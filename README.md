@@ -5,6 +5,7 @@ This project, developed during the HUJI Hackathon, leverages generative AI to cr
 Demo
 
 Watch the project demo on [YouTube](https://youtu.be/fEry6b7GXSw?si=3TkQo9a0GzKKnyaD).
+
 Features
 
     AI-Powered Recipe Generation: Generate recipes by inputting available ingredients.
