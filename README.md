@@ -1,19 +1,19 @@
- Recipe Generator Website
+### Recipe Generator Website
 Overview
 
 This project, developed during the HUJI Hackathon, leverages generative AI to create a local website for generating recipes based on user-provided ingredients.
 
-Demo
+#### Demo
 
 Watch the project demo on [YouTube](https://youtu.be/fEry6b7GXSw?si=3TkQo9a0GzKKnyaD).
 
-Features
+#### Features
 
     AI-Powered Recipe Generation: Generate recipes by inputting available ingredients.
     User-Friendly Interface: Simple design for easy interaction.
     Local Hosting: Ensures privacy and fast access.
 
-Installation
+#### Installation
 
     Clone the repository:
 
@@ -30,21 +30,21 @@ npm install
 
 Run the local server:
 
-bash
+#### bash
 
     npm start
 
     Open the website:
     Navigate to http://localhost:3000 in your browser.
 
-Usage
+#### Usage
 
     Open the website: Go to http://localhost:3000.
     Enter Ingredients: Type in the ingredients you have.
     Generate Recipes: Click 'Generate' to get recipe suggestions.
     Select a Recipe: View details and instructions for the chosen recipe.
 
-Contributing
+##### Contributing
 
 We welcome contributions! Here's how to get started:
 
